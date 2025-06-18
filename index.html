@@ -1,77 +1,158 @@
-
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aviator Pró</title>
-    <style>
-        body { font-family: Arial, sans-serif; background: #fff; color: #333; margin: 0; padding: 0; }
-        header, footer { background-color: #be0029; color: white; padding: 1em; text-align: center; }
-        main { padding: 1em; }
-        .banner img { width: 100%; border-radius: 12px; }
-        .buttons { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 20px; }
-        .buttons a {
-            text-decoration: none;
-            background-color: #be0029;
-            color: white;
-            padding: 15px 25px;
-            border-radius: 8px;
-            font-weight: bold;
-            transition: background 0.3s;
-        }
-        .buttons a:hover { background-color: #a00023; }
-        .section { margin-top: 30px; }
-        .section h2 { color: #be0029; }
-        nav { text-align: center; margin-top: 20px; }
-        nav a { margin: 0 15px; color: #be0029; font-weight: bold; text-decoration: none; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aviator Pró - Motivação e Responsabilidade</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #ffffff;
+      color: #333;
+    }
+    header {
+      background: #d32f2f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .motivacional {
+      background: #fce4ec;
+      padding: 20px;
+      text-align: center;
+      font-size: 20px;
+      animation: fade 10s infinite;
+    }
+    @keyframes fade {
+      0%, 20% {opacity: 1;}
+      25%, 100% {opacity: 0;}
+    }
+    .container {
+      padding: 20px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .section h2 {
+      color: #d32f2f;
+      margin-bottom: 10px;
+    }
+    .slides {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      width: 300px;
+      margin: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .card button {
+      margin-top: 10px;
+      background-color: #d32f2f;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .card button:hover {
+      background-color: #b71c1c;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      background: #eee;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Aviator Pró</h1>
-        <p>Onde Sorte Encontra Responsabilidade!</p>
-    </header>
 
-    <nav>
-        <a href="index.html">Início</a>
-        <a href="beneficios.html">Benefícios</a>
-    </nav>
+  <header>
+    Aviator Pró
+  </header>
 
-    <main>
-        <div class="banner">
-            <img src="A.png" alt="Jogos Aviator, Roleta e Dice">
+  <div class="motivacional" id="motivacional">
+    Jogue com estratégia, vença com calma.
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <h2>Jogo Responsável</h2>
+      <p>Jogar é divertido, mas deve ser feito com moderação. Nunca jogue com dinheiro que você precisa para despesas essenciais. Estabeleça limites e saiba a hora de parar.</p>
+    </div>
+
+    <div class="section">
+      <h2>Vantagens de Jogar com Estratégia</h2>
+      <ul>
+        <li>Evita perdas impulsivas</li>
+        <li>Aumenta as chances de lucro real</li>
+        <li>Melhora o autocontrole</li>
+        <li>Transforma o jogo em diversão segura</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Jogos em Destaque</h2>
+      <div class="slides">
+        <div class="card">
+          <img src="https://i.imgur.com/hc3aQAb.png" alt="Aviator">
+          <p>O clássico jogo de voo. Preveja o momento certo e ganhe!</p>
+          <a href="https://tracking.888africa.com/visit/?bta=36065&brand=888mozambique" target="_blank">
+            <button>Jogar Aviator Agora</button>
+          </a>
         </div>
-
-        <div class="section">
-            <h2>Motivação</h2>
-            <p>“O céu é o limite para quem joga com equilíbrio.”</p>
-            <p>“Não é só sobre voar alto, é sobre saber pousar com sabedoria.”</p>
-            <p>“A sorte favorece quem joga com responsabilidade.”</p>
+        <div class="card">
+          <img src="https://i.imgur.com/dJD2SeH.jpg" alt="Dice">
+          <p>Role os dados e confie na sua intuição. Rápido e emocionante!</p>
+          <a href="https://tracking.888africa.com/visit/?bta=36065&brand=bacelabet" target="_blank">
+            <button>Testar no Dice</button>
+          </a>
         </div>
-
-        <div class="section">
-            <h2>Responsabilidade e Segurança</h2>
-            <ul>
-                <li>✅ Jogue por diversão, não por necessidade.</li>
-                <li>✅ Tenha controle sobre seu tempo e dinheiro.</li>
-                <li>🔒 Plataforma segura com proteção de dados.</li>
-            </ul>
+        <div class="card">
+          <img src="https://i.imgur.com/El3Gk84.jpg" alt="Spin">
+          <p>Gire a sorte com estilo. Grandes prêmios te esperam!</p>
+          <a href="https://media1.placard.co.mz/redirect.aspx?pid=5920&bid=1690" target="_blank">
+            <button>Girar a Roleta Spin</button>
+          </a>
         </div>
+      </div>
+    </div>
+  </div>
 
-        <div class="section">
-            <h2>Casas de Apostas</h2>
-            <div class="buttons">
-                <a href="https://tracking.888africa.com/visit/?bta=36065&brand=888mozambique" target="_blank">888bets</a>
-                <a href="https://tracking.888africa.com/visit/?bta=36065&brand=bacelabet" target="_blank">Bacelabet</a>
-                <a href="https://media1.placard.co.mz/redirect.aspx?pid=5920&bid=1690" target="_blank">Placard</a>
-                <a href="https://sshortly.net/f1a67d6" target="_blank">Megagame</a>
-            </div>
-        </div>
-    </main>
+  <footer>
+    © 2025 Aviator Pró. Incentivamos o jogo consciente e responsável.
+  </footer>
 
-    <footer>
-        <p>© 2025 Aviator Pró. Todos os direitos reservados.</p>
-    </footer>
+  <script>
+    const frases = [
+      "Jogue com estratégia, vença com calma.",
+      "A sorte favorece quem está preparado.",
+      "Não é só sorte, é foco e disciplina.",
+      "Nunca jogue com dinheiro que você não pode perder.",
+      "Ganhar é bom, mas jogar com responsabilidade é melhor."
+    ];
+    let index = 0;
+    const div = document.getElementById("motivacional");
+    setInterval(() => {
+      index = (index + 1) % frases.length;
+      div.textContent = frases[index];
+    }, 5000);
+  </script>
+
 </body>
 </html>
